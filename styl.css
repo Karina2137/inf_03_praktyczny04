@@ -1,0 +1,49 @@
+*{
+    font-family: Helvetica;
+}
+body{
+    margin: 0;
+}
+main{
+    display:flex;
+}
+header, footer{
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+nav{
+    background-color: peru;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+}
+#glowny{
+    width: 80%;
+}
+#podglowny{
+    width: 100%;
+    height: 700px;
+    font-size: 120%;
+    overflow-y:scroll;
+}
+aside{
+    background-color: peru;
+    color: white;
+    width: 20%;
+    height: 760px;
+}
+a{
+    color: #ddd;
+    padding-left: 90px;
+    font-size: 140%;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+img{
+    padding: 30px;
+    float: left;
+}

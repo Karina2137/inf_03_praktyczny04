@@ -1,0 +1,9 @@
+Zapytanie 1: SELECT imie, miot from swinki where data_ur like "%-07-%"
+(wybierające jedynie pola imie i miot z tabeli swinki dla świnek morskich urodzonych w lipcu)
+Zapytanie 2: SELECT DISTINCT data_ur, miot, rasa from swinki INNER join rasy on swinki.rasy_id=rasy.id WHERE rasy_id = 1
+(wybierające niepowtarzające się wiersze z datą urodzenia i miotem z tabeli swinki oraz odpowiadającą im nazwą rasy z tabeli rasy dla id rasy równego 1. Należy posłużyć
+się relacją)
+Zapytanie 3: SELECT imie, cena, opis from swinki where rasy_id = 1
+(wybierające jedynie imię, cenę i opis świnek morskich, których id rasy jest równe 1)
+Zapytanie 4: SELECT rasa from rasy
+(wybierające jedynie rasę z tabeli rasy)
